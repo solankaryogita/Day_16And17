@@ -16,7 +16,7 @@ public class FileUnorderdList {
 	public static void main(String[] args) {
 
 		try {
-			File f1 = new File("D:Number.txt");
+			File f1 = new File("Number.txt");
 			UnorderedList<String> list = new UnorderedList<>();
 			Scanner sf = new Scanner(f1);
 			Scanner s = new Scanner(System.in);

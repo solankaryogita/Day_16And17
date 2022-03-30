@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MyorderList {
 	
 	public static void main(String args[]) {
-		String filePath = "D:Number.txt";
+		String filePath = "Number.txt";
 		String num[] = Utility.readFile(filePath);
 		OrderedList<Integer> list = new OrderedList<Integer>();
 		Scanner sc = new Scanner(System.in);
